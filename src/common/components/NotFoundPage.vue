@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h1>
-      page not found
-    </h1>
+    <h1>kuy</h1>
   </div>
 </template>
 
