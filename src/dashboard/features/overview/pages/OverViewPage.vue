@@ -33,10 +33,10 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Titillium+Web&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
 }
 .Card {
   height: 700px;
