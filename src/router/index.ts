@@ -6,16 +6,16 @@ import NotFoundPage from "../common/components/NotFoundPage.vue"
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
- {
-   path: "",
-   redirect: "/dashboard/Overview",
-   component: AppShell,
-   children: [...DashboardRoutes()],
- },
- {
-   path:"*",
-   component: NotFoundPage,
- }
+  {
+    path: "",
+    redirect: "/dashboard/Overview",
+    component: AppShell,
+    children: [...DashboardRoutes()]
+  },
+  {
+    path: "*",
+    component: NotFoundPage,
+  }
 ];
 
 const router = new VueRouter({
